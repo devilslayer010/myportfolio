@@ -1,0 +1,310 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+  <script type="module" crossorigin src="/assets/index-CnkV1ELQ.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-C58oei4C.css">
+</head>
+
+<body class="font-nunito">
+    <!-- into section -->
+    <div class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-300 dark:from-slate-800 dark:to-slate-900 relative overflow-hidden">
+
+        <!-- navbar -->
+        <nav class="w-full fixed top-0 z-10 bg-[#eef7ff] dark:bg-slate-900">
+            <div class="container mx-auto py-5 flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                    <img class="w-10 h-10 rounded-full" src="/assets/mainlogo-s51xAZZF.png" alt="">
+                    <span class="text-2xl font-bold text-stone-900 dark:text-white">Portfolio</span>
+                </div>
+
+                <!-- navbar title -->
+                <ul class="hidden md:flex space-x-10 items-center text-gray-700 dark:text-gray-100  font-bold  text-sm uppercase">
+                    <li class=" hover:text-gray-500">
+                        <a href="#">Homepage</a>
+                    </li>
+                    <li class=" hover:text-gray-500">
+                        <a href="#About">About me</a>
+                    </li>
+                    <li class=" hover:text-gray-500">
+                        <a href="#Services">Services</a>
+                    </li>
+                    <li class=" hover:text-gray-500">
+                        <a href="#Works">Works</a>
+                    </li>
+                    <li class=" hover:text-gray-500">
+                        <a href="#Contact">Contact</a>
+                    </li>
+                </ul>
+                <!-- dark-light mode -->
+                <img id="moon" class="w-10 h-10  md:block cursor-pointer rounded-full" src="data:image/png;base64,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" alt="">
+                
+                <!-- hamburger list -->
+                <div id="hamburger" class="md:hidden block space-y-1 cursor-pointer z-20 ">
+                    <div></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                </div>
+
+                <ul id="menu"
+                    class=" hidden bg-indigo-900 absolute left-0 top-20 justify-center w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
+                    <li class="">
+                        <a id="hLink" href="#">Homepage</a>
+                    </li>
+                    <li class="">
+                        <a id="hLink" href="#About">About me</a>
+                    </li>
+                    <li class="">
+                        <a id="hLink" href="#Services">Services</a>
+                    </li>
+                    <li class="">
+                        <a id="hLink" href="#Works">Works</a>
+                    </li>
+                    <li class="">
+                        <a id="hLink" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- intro content -->
+        <!-- image -->
+        <img class="absolute  bottom-0 right-0 lg:left-0 mx-auto h-[80%] object-cover" src="/assets/3girl-CmA_SluT.png" alt="">
+        <!-- circle -->
+           <div class="hidden lg:block absolute -bottom-1/4 left-0 right-0 mx-auto w-[48rem] h-big bg-indigo-900 rounded-full -z-10">
+        </div>
+        <!-- animated text -->
+        <div
+            class="absolute top-1/3 left-5 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5 xl:left-48 font-bold">
+            <span class="text-gray-600">Freelance</span>
+            <p id="text" class="text-red-600"></p>
+        </div>
+        <!-- texts -->
+        <div
+            class="hidden lg:flex flex-col absolute gap-5 top-0 bottom-0 m-auto right-10 bg-white dark:bg-slate-900 dark:shadow-slate-700 text-white p-6 h-fit w-1/3 rounded-xl shadow-2xl ">
+            <h1 class="text-4xl font-bold text-indigo-900">I am Palden</h1>
+            <p class="dark:text-white text-black">
+                I am a student.
+            </p>
+            <a class=" bg-indigo-600 text-white px-3 py-2 w-fit rounded-md font-semibold" href="#contact">Hire me</a>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div id="About" class="px-10 dark:bg-slate-800">
+        <div class="container py-40 flex flex-col-reverse lg:flex-row items-center gap-20 mx-auto">
+            <!-- left -->
+            <div class="relative">
+                <img class=" h-1/4 absolute top-0 left-0 -z-10" src="/assets/dots-BtcHB_yu.png" alt="">
+                <div class="h-full rounded-full overflow-hidden">
+                    <img src="/assets/midgirl-B-zvOTCX.png" alt="">
+                </div>
+            </div>
+            <!-- right -->
+            <div class="my-auto flex flex-col  gap-3">
+                <h1 class="text-indigo-600 sm:text-center font-bold">ABOUT ME</h1>
+                <h1 class="text-3xl font-medium sm:text-center dark:text-white">Better Design</h1>
+                <h1 class="text-3xl font-medium sm:text-center dark:text-white">Better Experience</h1>
+                <p class="text-gray-400">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, velit atque, saepe mollitia at odio
+                    ea, maiores rem a quasi perferendis consequatur! Eligendi quod quisquam adipisci libero maxime unde
+                    dignissimos!
+                </p>
+
+                <h2 class="text-gray-400  font-medium">HTML</h2>
+                <div class="w-full bg-indigo-600 h-1.5 rounded-md"></div>
+
+
+                <h2 class="text-gray-400  font-medium">Tailwind CSS</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-5/6 bg-indigo-600 h-1.5 rounded-md"></div>
+                </div>
+
+
+                <h2 class="text-gray-400  font-medium">Javascript</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                <div class="w-1/5 bg-indigo-600 h-1.5 rounded-md"></div>
+                </div>
+
+
+                <h2 class="text-gray-400  font-medium">GO</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                <div class="w-3/5 bg-indigo-600 h-1.5 rounded-md"></div>
+                </div>
+
+
+                <h2 class="text-gray-400  font-medium">Python</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                <div class="w-3/4 bg-indigo-600 h-1.5 rounded-md"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- Services -->
+<div id="Services" class="pt-32 dark:bg-slate-800">
+    <div class="container mx-auto">
+        <!-- top -->
+        <div class="flex flex-col gap-3 items-center">
+            
+            <h1 class="text-indigo-600 font-bold">Services</h1>
+            <h1 class="text-3xl dark:text-white">What do I offer?</h1>
+            <p class="w-1/2 text-center text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati dolor magni aut fuga, modi asperiores sapiente sit odio dolorem eaque nulla necessitatibus rem delectus dicta ex? Explicabo accusamus asperiores culpa!</p>
+            
+         </div>
+
+        <!-- bottom -->
+        <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+            <!-- Card -->
+            <div class="w-full  md:w-1/3 shadow-xl rounded-lg p-5 my-3 md:my-10  flex flex-col gap-3">
+                <img class="w-20" src="/assets/card1-DXnltYRB.png" alt="">
+                <h1 class="font-medium dark: text-white  text-lg">UX / UI Design</h1>
+                <p class="text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <a class="text-indigo-600 font-semibold text-sm" href="">Read more</a>
+            </div>
+            <div class="w-full  md:w-1/3 shadow-xl rounded-lg p-5 my-3 md:my-10  flex flex-col gap-3">
+                <img class="w-20" src="/assets/card2-CuDsR5wB.png" alt="">
+                <h1 class="font-medium  dark: text-white text-lg">UX / UI Design</h1>
+                <p class="text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <a class="text-indigo-600 font-semibold text-sm" href="">Read more</a>
+            </div>
+            <div class="w-full  md:w-1/3 shadow-xl rounded-lg p-5  my-3 md:my-10 flex flex-col gap-3">
+                <img class="w-20" src="/assets/card3-DuvHRTTj.png" alt="">
+                <h1 class="font-medium  dark: text-white text-lg">UX / UI Design</h1>
+                <p class="text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <a class="text-indigo-600 font-semibold text-sm" href="">Read more</a>
+            </div>
+            <div class="w-full  md:w-1/3 shadow-xl rounded-lg p-5 my-3 md:my-10  flex flex-col gap-3">
+                <img class="w-20" src="/assets/card4-CM_SUQre.png" alt="">
+                <h1 class="font-medium dark: text-white  text-lg">UX / UI Design</h1>
+                <p class="text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <a class="text-indigo-600 font-semibold text-sm" href="">Read more</a>
+            </div>
+            <div class="w-full  md:w-1/3 shadow-xl rounded-lg p-5  my-3 md:my-10 flex flex-col gap-3">
+                <img class="w-20" src="/assets/card5-SIoJ4it3.png" alt="">
+                <h1 class="font-medium dark: text-white  text-lg">UX / UI Design</h1>
+                <p class="text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <a class="text-indigo-600 font-semibold text-sm" href="">Read more</a>
+            </div>
+            <div class="w-full  md:w-1/3 shadow-xl rounded-lg p-5  my-3 md:my-10 flex flex-col gap-3">
+                <img class="w-20" src="/assets/card6-CEE_oECY.png" alt="">
+                <h1 class="font-medium dark: text-white  text-lg">UX / UI Design</h1>
+                <p class="text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <a class="text-indigo-600 font-semibold text-sm" href="">Read more</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!-- PORTFOLIO // WORKS // PROJECTS -->
+<div id="Works" class="py-32 dark:bg-slate-800">
+    <div class="container mx-auto">
+        <!-- top -->
+        <div class="flex flex-col gap-3 items-center">
+            
+            <h1 class="text-indigo-600 font-bold">PORTFOLIO</h1>
+            <h1 class="text-3xl dark: dark:text-white">Projects</h1>
+            <p class="w-1/2 text-center text-gray-400">
+                I perform many remote services for web-development, automation and creating APIs.
+            </p>
+            
+         </div>
+
+        <!-- bottom -->
+        <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+            <!-- Card -->
+            <div class="w-full  lg:w-1/5 md:w-1/3 shadow-xl rounded-lg p-5 my-3 md:my-10  m-1">
+                <img src="/assets/item1-DDnn4tEm.png" alt="">
+            </div>
+            <div class="w-full  lg:w-1/5 md:w-1/3 shadow-xl rounded-lg p-5 my-3 md:my-10  m-1">
+               <img src="/assets/item2-DnSXgCP2.png" alt="">
+            </div>
+            <div class="w-full lg:w-1/5  md:w-5/12 shadow-xl rounded-lg p-5  my-3 md:my-10 m-1">
+               <img src="/assets/item3-Bol3Garr.png" alt="">
+            </div>
+            <div class="w-full  lg:w-1/5 md:w-5/12 shadow-xl rounded-lg p-5 my-3 md:my-10  m-1">
+                <img src="/assets/item4-DG1Lwnt0.png" alt="">
+            </div>
+            <div class="w-full lg:w-1/5  md:w-5/12 shadow-xl rounded-lg p-5  my-3 md:my-10 m-1">
+                <img src="/assets/item5-C05U1Jb9.png" alt="">
+            </div>
+            <div class="w-full  lg:w-1/5 md:w-5/12 shadow-xl rounded-lg p-5  my-3 md:my-10 m-1">
+                <img src="/assets/item6-kfLVDYPu.png" alt="">
+            </div>
+            <div class="w-full  lg:w-1/5 md:w-5/12 shadow-xl rounded-lg p-5  my-3 md:my-10 m-1">
+                <img src="/assets/item7-C0MmgAti.png" alt="">
+            </div>
+            <div class="w-full  lg:w-1/5 md:w-5/12 shadow-xl rounded-lg p-5  my-3 md:my-10 m-1">
+                <img src="/assets/item8-BN11mLVw.png" alt="">
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!-- CONTACT -->
+    <div id="Contact" class="dark:bg-slate-800">
+        
+        <div class="container mx-auto pb-1">
+            <!-- TOP -->
+            <div class="flex flex-col gap-3 items-center">
+            
+                <h1 class="text-indigo-600 font-bold">CONTACT</h1>
+                <h1 class="text-3xl dark:text-white">Any questions?</h1>
+                <p class="w-1/2 text-center text-gray-400">
+                    Do you have an idea? Bring it On!
+                    Lets see what we can do together
+                </p>
+                
+             </div>
+
+
+            <!-- BOTTOM -->
+
+             <form class="mt-5 mx-2 flex flex-col gap-5  items-center" action="">
+                <input class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-700 dark:text-white" type="text" placeholder="Full Name">
+                <input class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-700 dark:text-white"  type="email" placeholder="Email Address">
+                <textarea class="p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm dark:bg-slate-700 dark:text-white"  name="message" cols="30" rows="10" id="message" placeholder="Message..."></textarea>
+                <button class="w-1/2 bg-indigo-400 text-white font-medium px-3 py-2 rounded-md cursor-pointer">Submit</button>
+             </form>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="w-full bg-slate-900">
+        <div class="container mx-auto py-5 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                
+                <span class="text-2xl font-bold text-white">Portfolio</span>
+            </div>
+            <span class=" font-medium items-center text-center text-white">Copyright © 2024 || All Rights Reserved</span>
+           
+            <!-- dark-light mode
+            <img class="w-10 h-10 hidden md:block rounded-full" src="img/moon.png" alt=""> -->
+
+            <div class="flex gap-2">
+                <img class="w-4 cursor-pointer" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADmGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSfvu78nIGlkPSdXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQnPz4KPHg6eG1wbWV0YSB4bWxuczp4PSdhZG9iZTpuczptZXRhLyc+CjxyZGY6UkRGIHhtbG5zOnJkZj0naHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyc+CgogPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9JycKICB4bWxuczpBdHRyaWI9J2h0dHA6Ly9ucy5hdHRyaWJ1dGlvbi5jb20vYWRzLzEuMC8nPgogIDxBdHRyaWI6QWRzPgogICA8cmRmOlNlcT4KICAgIDxyZGY6bGkgcmRmOnBhcnNlVHlwZT0nUmVzb3VyY2UnPgogICAgIDxBdHRyaWI6Q3JlYXRlZD4yMDIyLTA2LTAyPC9BdHRyaWI6Q3JlYXRlZD4KICAgICA8QXR0cmliOkV4dElkPjE5ZTgxYWE2LWY2MmEtNGY5Zi1iNjdlLTg3NGM2NTgwNDMzZDwvQXR0cmliOkV4dElkPgogICAgIDxBdHRyaWI6RmJJZD41MjUyNjU5MTQxNzk1ODA8L0F0dHJpYjpGYklkPgogICAgIDxBdHRyaWI6VG91Y2hUeXBlPjI8L0F0dHJpYjpUb3VjaFR5cGU+CiAgICA8L3JkZjpsaT4KICAgPC9yZGY6U2VxPgogIDwvQXR0cmliOkFkcz4KIDwvcmRmOkRlc2NyaXB0aW9uPgoKIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PScnCiAgeG1sbnM6cGRmPSdodHRwOi8vbnMuYWRvYmUuY29tL3BkZi8xLjMvJz4KICA8cGRmOkF1dGhvcj5MYW1hIERldjwvcGRmOkF1dGhvcj4KIDwvcmRmOkRlc2NyaXB0aW9uPgoKIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PScnCiAgeG1sbnM6eG1wPSdodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvJz4KICA8eG1wOkNyZWF0b3JUb29sPkNhbnZhPC94bXA6Q3JlYXRvclRvb2w+CiA8L3JkZjpEZXNjcmlwdGlvbj4KPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KPD94cGFja2V0IGVuZD0ncic/Pj45eJQAAAONSURBVFiF7Zg9iB1VGIafd+7c/TFr3OwGTCUYkBTBiDaBoIWVjVW0ErZLF0hpLSLYCCFlIF26JU1II3aSFMbCMmhj8A+jIjGRNT9777wW8529Z29m797Z2RAI94XLPTNnzve95/ubb45oCdvYRhJAYbuShO13JK0BbwGHgFVAaQ1gSb0QcwK4DUiSJ+kr2xKklgqgILcAXJb0LnAF+Az4EfgVeGxbqhc4fuuxgdvT6NoTwSBnSYu2bwI/Szpq+36QB8gtnWOzjaJWBMNVEK6xfUnSH7bfj5sltZWqtCTWbbkyxk+HYCIXBI5Leg94MxT2gEHahKStUMgYOeK1ybKNKNowC+Up0D8CvgF+AXq2hzm5TLaByiPzDxLJadDKgiG4CgLHgG9HU9ssk6xcAG/EtYPky5I8LcnWLpaU4usl4C6hOXNZythjttclzQP/RdD2JG3a/jMLgf0lmBDK7gRpx39uxS8k3QDOAouMEqcKklvrngpBSUNgmF2TK7V9QNK1mH4wtrmpk2QiwTxGYlwwKrhi+5uiaQMHY74vaZhIZWHSjeCYwjxBsD2IWriTNQxsxNpWxXlPBIFDkl6hjqWBpMNk2buNWU16gfqd+wOwTB0OAh4C3zOKyc4ES2AAnAM+AX4H5oPIbw3ZmN4a3wFngA+p66QlFcBh4G2iWSDeNntCdC5l/J+3/WmMV20vpc4mWbCqKvJ7tudtz8V/3/YB21/bfi3md82Utll8P9z3d9pAbr0sPtP40dgzPWoLbkyrcOKrriE7y1BW7vRcU9JklloBXgD+TVO7EZxowYbsTBsqY35INADja6KQpz6hAB4DR4G/bD/YQX47gmNwCEfSw4kP1hYdNkyt2L4radDgnc4ES9sfS3rV9rKkf4CLwE+MmoG8zVoDTsbaArhn+7Sk6wDR/jdtYhumabdSvVqX9BXwYhTec9TfH1tyMpeVwOe2X6d+zTnWfQlcGJO7d9hOpUN5+Yh7V21/EPeK9HxWmm7ZPjVWdp6Qtxt2tWBYxdRfcH1GmbxEuHWC7CMxnqe2aj/7gJoKbbK4qqoqd0tqGBoR8TiIy802DUKOVi3/s8CMYFfMCHbFjGBXzAh2xYxgVzz/BLPj4PzbIz8T7IRWBMd02vYwBqkzTucym+xHQ0qHwyOgkLQEICk/ORhKmgP67IOHWp9Rp4bT9j1Jl6lb+FyOg9gc9SnE1KepTfgfR/cUH6Te/o4AAAAASUVORK5CYII=" alt="">
+                  
+                <img class="w-4 cursor-pointer" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADmGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSfvu78nIGlkPSdXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQnPz4KPHg6eG1wbWV0YSB4bWxuczp4PSdhZG9iZTpuczptZXRhLyc+CjxyZGY6UkRGIHhtbG5zOnJkZj0naHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyc+CgogPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9JycKICB4bWxuczpBdHRyaWI9J2h0dHA6Ly9ucy5hdHRyaWJ1dGlvbi5jb20vYWRzLzEuMC8nPgogIDxBdHRyaWI6QWRzPgogICA8cmRmOlNlcT4KICAgIDxyZGY6bGkgcmRmOnBhcnNlVHlwZT0nUmVzb3VyY2UnPgogICAgIDxBdHRyaWI6Q3JlYXRlZD4yMDIyLTA2LTAyPC9BdHRyaWI6Q3JlYXRlZD4KICAgICA8QXR0cmliOkV4dElkPjliZDM5NTdjLTc0YzktNGFiZi04NTEzLWI5OTY5NDZkZDhiYzwvQXR0cmliOkV4dElkPgogICAgIDxBdHRyaWI6RmJJZD41MjUyNjU5MTQxNzk1ODA8L0F0dHJpYjpGYklkPgogICAgIDxBdHRyaWI6VG91Y2hUeXBlPjI8L0F0dHJpYjpUb3VjaFR5cGU+CiAgICA8L3JkZjpsaT4KICAgPC9yZGY6U2VxPgogIDwvQXR0cmliOkFkcz4KIDwvcmRmOkRlc2NyaXB0aW9uPgoKIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PScnCiAgeG1sbnM6cGRmPSdodHRwOi8vbnMuYWRvYmUuY29tL3BkZi8xLjMvJz4KICA8cGRmOkF1dGhvcj5MYW1hIERldjwvcGRmOkF1dGhvcj4KIDwvcmRmOkRlc2NyaXB0aW9uPgoKIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PScnCiAgeG1sbnM6eG1wPSdodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvJz4KICA8eG1wOkNyZWF0b3JUb29sPkNhbnZhPC94bXA6Q3JlYXRvclRvb2w+CiA8L3JkZjpEZXNjcmlwdGlvbj4KPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KPD94cGFja2V0IGVuZD0ncic/PsKjWNUAAAUsSURBVFiFvZhBiJVVFMd/53tvSkGwMA0dEEdKUDBcFAmStdFZ2dpqUSTIbGzRoqJVIQktmrYSLkSJatPCNg0FhTmguLN0WmW4UFQqF4Km791/i++cN3eu33tvnuN04HK/795zz/3fc+4959xrkpCEmVWSkpmtkPSame0HXgCeZPnpH+C8pK/N7CtJd3t4JAFUQAL2AEeBzcC/wDngCnDHeR41JWAlsBF4EXgc+AOYAn4AKlJKlSRSSgdSSpJ0W9KUpNWh3f+prPZ5b6umA5KIzj3e+FtKaX0x0CRVy1jMFURKCUkbJP3ueCZN0grgIvA08CxwTdKYmXUA5fbw7bBkMrMFv14EtIH7ksaBi2bWQdLbjnbKVzKWa3A5KGS7xhaUbP535B8zku5KeiIz6aLAlZPEd1PbAIDPSNpWbCkkPZVSumGS/gYuAK/kQgozPCA846kkmZl1G3hbZibq01pSmPUMsA7YUrQD/Nim9nN/ekMFpH7gUpqfx8zCNeX8FdACut6egw7+8LtRf0DtXrJ1yXxh19reeD8GNVGDuStJyYHuAvYBO4EJYBVwG7gMnAW+A2YdXK4AeX0mn8fMsLpDwJ0AaAFuyN6LgcnMXgKmged93E0zuxRAJG0zs5eB96kd/nvA6UIOkiqfu2kbVPgJPuZ7q8rNGIDLwyPpiOZpWtJ2Se3iRLa9fTrjPdwkLyc/OJX3HRsIsHQBXk76mO8lbezDU7qOjc4vSSeaeB4aYDHgiIfD44WmqqZJvT3XbCzucNa/NIDBnFLanWkuQlOrSQsN2s/5ZiTJ5T0wZwmwb4aSTRin9TNvP+jtrdyNlB6g+O9Kavn3lOrT+mnID5fTRMNSqOjfRX1ap83sCtAOcO4WGgfn7c7fBi6b2efUbmnXMBwDAUqKGfZ5fdzrJpcwFGQ27kQht3mFwwBmJtwJ3ATm3BRh9lFBRiT5VdINYKfL645s4mzjV5I2A5eATky2WHANIDGzrpnNARMeMvvKG6ZBJLXNbBWZWfutdhjl41T/PDYMQ9/ObEUd6thaNfSNRHk49dh6jyH7eehFyMwS9UVmK9AOLYyqxcJXtlze5SUBDN8l6Rx1zrY1csBRQAZftt+2u7xzGeDRAXpOhpmd8qa38nFNEaQJXMYT873p9bfO019Iv1CXxeGozztvJAitnKcfuCz9b/n3hMs5U/QDI4S6LEJUfprf9a4vwndRh7semBJcyPGt0vXvo87yYa7Vh3IzTslB/iLpE2DSzE56X9ezlZ7Jc426JnphUdJJYC/wsaTTLndwVFpENtOYD6aUZtxcZe7XNGZTZDHyfLDk62ljlHSrAJln1Ic1T9OSdmhhShV7dIcWZtQfZQtZekY9BORuSWezya9L+lnST15fz/pmI//zPLLv3TtwBMC4NPU4h0SJ/KJzmvmU6VXq16kJ6vB1D5gDjks6ZWazmf9M4b4WQSkAjkn9r53lSfWNHffcWS8BoHdfLha84M49SBGS4kq6sqJ+PNyUX/2aVN8gNPZCBbQ0n4Z1sr5WmCtrG/pqkWl4fdwRHsnbTFMZ5MibwKl4m6mAb6ifHvY7bzsfMIjMjKqqek69qUT/YsDl8wOvm9naeB+8BKyTtMXMrgJjQCfbC8tKmk+/2sB9YFzSRaAT6Pe6O5iTNF6YaTlfV6Pk8407DkmazH3OQW+8lVI6JGlNub/imfZRlIZ9ukbSIUm3HMcBSZSv/JPAl8Aa6kvSBeAqcJcBN6+lWBdYAWwAngPWSvrLzN4AZoDqP2qIFOwpzKNaAAAAAElFTkSuQmCC" alt="">
+                <img class="w-4 cursor-pointer" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADmGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSfvu78nIGlkPSdXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQnPz4KPHg6eG1wbWV0YSB4bWxuczp4PSdhZG9iZTpuczptZXRhLyc+CjxyZGY6UkRGIHhtbG5zOnJkZj0naHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyc+CgogPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9JycKICB4bWxuczpBdHRyaWI9J2h0dHA6Ly9ucy5hdHRyaWJ1dGlvbi5jb20vYWRzLzEuMC8nPgogIDxBdHRyaWI6QWRzPgogICA8cmRmOlNlcT4KICAgIDxyZGY6bGkgcmRmOnBhcnNlVHlwZT0nUmVzb3VyY2UnPgogICAgIDxBdHRyaWI6Q3JlYXRlZD4yMDIyLTA2LTAyPC9BdHRyaWI6Q3JlYXRlZD4KICAgICA8QXR0cmliOkV4dElkPmQ1MDcwNjkyLTA2YWEtNDJkMi1hZGRmLWIzMGE4OTRhY2JmYjwvQXR0cmliOkV4dElkPgogICAgIDxBdHRyaWI6RmJJZD41MjUyNjU5MTQxNzk1ODA8L0F0dHJpYjpGYklkPgogICAgIDxBdHRyaWI6VG91Y2hUeXBlPjI8L0F0dHJpYjpUb3VjaFR5cGU+CiAgICA8L3JkZjpsaT4KICAgPC9yZGY6U2VxPgogIDwvQXR0cmliOkFkcz4KIDwvcmRmOkRlc2NyaXB0aW9uPgoKIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PScnCiAgeG1sbnM6cGRmPSdodHRwOi8vbnMuYWRvYmUuY29tL3BkZi8xLjMvJz4KICA8cGRmOkF1dGhvcj5MYW1hIERldjwvcGRmOkF1dGhvcj4KIDwvcmRmOkRlc2NyaXB0aW9uPgoKIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PScnCiAgeG1sbnM6eG1wPSdodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvJz4KICA8eG1wOkNyZWF0b3JUb29sPkNhbnZhPC94bXA6Q3JlYXRvclRvb2w+CiA8L3JkZjpEZXNjcmlwdGlvbj4KPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KPD94cGFja2V0IGVuZD0ncic/PiYjU7gAAATXSURBVFiFzZhLqJVVFMd///PwehMRM7vUhQZNAjGJKHuJjoweYIMmBQ0yCoIeDnpAgUREoyioIGgQSGCjtAwpIgeVYSFSVKCS9sDA0KgMs7yPs/8NvrW/uz333K7ex7EFh2+f9e291n+vvdb61tqyDdAAEhUNAgPAX8B48Jq2OwCSkETfyLZSSthen1J63/a3KaUfbH9p+03bl9vGdjOe/QMHEOCetP2b7Sdsr7B9oe3rbL8e/NUBrnE+AK6xfcr2StsZcP1LKT1i+3vbC86LBW3vsP1KKF9oW8WRNgLkPtsbM7+f+BrAcuDT+D8KOIB34j3AV8A1Me5jhFQADCws/lcoikiV1AbG+gksUwP4Grg7/htoAU2gzUSaWQt8EONEPymltCyl9LPtTWVwFL/ttj8qef0khcIrbW+T9JPtzySdpPLNW4GjwJ22TwOS5H4matnOX5EWcC9VMFwA/Ep1rLugSuiSpjWf7UlfmuCJyqXUNS/ZTl0+fwbAenIv4bOhApiY3nebMac2giRaIaTNRHBkYdmyCThdLgQathdLavzHpk5JGs9KbV8iaT2wyvYgkCQdA/YBnwD/ZNl5M7aR7ZuBl4HfqSyqQmECBmyfkHQ7E3nyAduvSvolNlbSOLDc9k5JdwHDwEvAjcB3wI/A31QFyRJgBbAI2A48FeubtjuSaMWORoHbJA0EOIclx4Dlkj4PISMBYkjSG8BDti+WlHNkMza6EbjD9lpJO2y/J+km4EhtmTNdajXwArAf2AAclNQEOi1gVNIJ4M8pjmuMqvQqj3gkrI2k490LgCOSrgbeBh6WtDX4st0ojigHyF5gHbAZ2A3cABwGGq2wVAsih1RKXUTtAuILU0YeVRrCdlNSdu4m0KFK8sNhya2225I6gCV1spzCGDm6n4vxu8BKIGXFLp6OxdliZ0RVHgLjhTu4AA5wyPbjwBagHS5QR6ik+pMaWSQHo4BnqXx0U0Y+E8o+WvtS12YOSXoxxtk/L6IKigyokdcXG814nrf94GwATkel3MeAL4A98dwl6XomUllJnXjulDQKrOlOEXNF+ajfAYZsPyppP5U/bwDeAu6xvSeOu07iEUQd4ABwy5wCDOfPCp+xPSxpdVdm2AKcBF4DrsrgJJFSIpJ/knQAWDGnRxz+mKg6w/sk3R+v2nkK1bFuA8YkrQt+7Y9MBNxBYGiufbARwlcBx4Fvgp8DxUVA7QeuLYBnyhNGgOZ8Bckw8EevF0WKOQlcltnxrkJYbUIwT1FsW1QFRQms19SebWw5d14AZgVTlW5nAbymmQKcUmovi2ReLzDTtRDnDDB/FUvefLYA5wwwwIgukPNFMz3iJnBsljLOimYkPKJ0dI6x9KTZ7L4vN10zAtidRv5XQRLUoZ9BknuE3MNGlZvN0ss8SykKgOJKRGdjze4mvbjym6QvWzAXis6lflHy53K9pCXFuLz16hS8id62N2gD4wFqShmtuJBcJGkRVUGZc1zddtoe7DJNE1gSyi8tFDSpioQhYHCam4o2sDTeT5Jhe0jSYEvSYeAKqgpWXUITMCjpKHCqAL8H2CxpN0XjHms7wDLgwymSem7Q9gJPA7slTZIhaSnwcb7dWszkG4JMCnAjJdP2gmiu6waqGJvquqRW2mg06vG5yPgXKWbVSCR4BCAAAAAASUVORK5CYII=" alt="">
+               
+                <a href="https://www.youtube.com/channel/UCYh-z2tFwk2rpEiJzuZZNYQ">
+                    <img class="w-4 cursor-pointer" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAAXNSR0IArs4c6QAABBJJREFUWEftmH9IG1cAx+95l0tMViTDLuq0RZ3sDyH/VBbEDMZkJLqRGOO0XQWxjSDEUDOQqNkgRBM3baPE0zibITM6+kcWHSiKUJAtiGX4R+h//jOUwGSVTRnoXS5nxjtUglNo3l2gDB9c7i687+d934+8u3wB9oYX8Ib7w64NCp2h6xHMxgiC4uJiJQBAJpfLpSRJSuVyOYnjuFQqhbckKZPJSIlEIoHXBEFICPghkeAYhsEDFo5lWS6RSLDJZJI/aJpOJJPJBCwMw/DXx8fHDLyF51QqRe/u7h5gGJZK79T5FBcVFeV7vV53U1PTXYVCoRTacxT9wcHBn/Pz8z+4XK6B/f39fyCDN1hWVnYrGo3+UlhYeBsFLLZme3v7ZW1t7UfxePwv3uDGxsbz6urqj8VuSAgvEonMm83mVqDRaNSbm5sxIbBsaFOpFFdeXv4u6OzsfBAIBL7PRiNCmSaTqR709vbah4aGfEJh2dC3tbXdBYODg185nc6BbDQglGm1Wi3A5/MN2e32XlQYXMwGg+FzgiBIVMZVup6enkdgenra39HRYUOFV1VVqU9OTrhAIDCl0Wg+ROVcpnO5XH0gFAoFW1tbH6KCocGtra2XcE+1Wq0PPR7Pt3l5eW+j8tJ1w8PDAyAcDsP95gtUYJpBHqFSqd6ZnJz0NTY23kdlnukoinoMFhYWfmpoaGhEhV00eMYxGAyfUBQ1WVJS8h4qOxgMToDl5eWl+vr6T1EhVxk85eWOjo46bTZbD47jGf+IQqHQU7C6urqi0+n0WTLIY00mkz4cDi/l5OScve28VnNzc3MzYGVlZUmv12drBHGn02mD+2xubu5br+UqrdLs7GwQLC4uRoxGoylT8Vn9q6ZYq9XemZqa+q6ysvIOKptfg+Fw+Eez2XwPFXLRYH5+/g2Px+O2WCy2TKf0ooeJiYknYu6DWEtLi3FsbGy8oKCgBLXD6bqRkZFBUZ4kh4eHf/v9fn9dXR3yUrmsQ263ux8+i7+x2+0O1B7PzMxQzc3NbQqF4gYq4yqdw+F4BDwez9f9/f1useFi8Lq6ujpAX1/fl16v94kYQLEZ7e3t9+AD3kJR1FOx4WLwzGbzZ6CmpqYqGo3+JgZQZEaqoqLiFv+vLhaLvVCr1R+I3IAg3Nra2s86na6BN6hWq99fX1//ValU3hREFUkcj8d/12q1NTs7O3+cJwulpaW3x8fHH+v1eiOO4xKR2soIw7LscSQSedbd3e3Y29t7BcX/SbdUKpVCpVIVy2QyGQxjYB5DEIQU5jEwp+HDGZKUwO9hPnOazcAzfFPJOXV0wrJskuO4JMxlYIF5DMuy59kMwzAMvD86OmI4jmNomqZjsdguhmF0eq+u47eM5viSytcj+L8fwX8BsQybh1QdpjYAAAAASUVORK5CYII="  alt="">
+                </a>
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
